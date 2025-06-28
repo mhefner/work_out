@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: work_out
+  name: work-out
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: work_out
+      app: work-out
   template:
     metadata:
       labels:
-        app: work_out
+        app: work-out
     spec:
       imagePullSecrets:
         - name: dockerhub-secret

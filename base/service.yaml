@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: work_out
+  name: work-out
 spec:
   type: NodePort
   selector:
-    app: work_out
+    app: work-out
   ports:
     - port: 80
       targetPort: 80

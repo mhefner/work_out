@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: work_out
+  name: work-out
 spec:
   template:
     spec:
       containers:
-        - name: work_out
+        - name: work-out
           image: mhefner1983/work_out:dev  # tag it differently for dev
           imagePullPolicy: Always

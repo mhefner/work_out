@@ -15,7 +15,7 @@ spec:
       imagePullSecrets:
         - name: dockerhub-secret
       containers:
-      - name: analyzer
+      - name: work-out
         image: mhefner1983/work_out:dev
         ports:
         - containerPort: 80
